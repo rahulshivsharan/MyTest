@@ -1,0 +1,16 @@
+-> The Difference between Framework and Library
+
+Framework is an architechture or a group of architechture.
+Like for example an MVC framework .
+
+In Java family there are multiple framework like
+
+Spring, Hibernate, Struts, JSF etc.
+
+
+A library is an set of class files bundled in a JAR (in java envioromnent)
+or in ZIP.
+
+it is used as utility.
+
+
