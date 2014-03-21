@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<script type="text/javaScript">
+			(function(){
+				var fn = function(){
+					var num = 0;
+					for(var x=0;x < arguments.length; x++){
+						num += arguments[x];
+					}
+					
+					return num;
+				}
+				
+				alert(fn(10,20));
+				alert(fn(1,2,3));
+				alert(fn(100,200,300,400));
+			})();			
+		</script>
+	</head>
+	<body>
+		
+	</body>
+</html>
