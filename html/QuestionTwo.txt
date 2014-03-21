@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<script type="text/javaScript">
+			window.onload = function(){
+				var myFun = function(){
+					var x = 10;
+					y = 20;	
+					
+					alert("value of x "+x); // x in in functional scope of function myFun
+					alert("value of y "+y); // y is in global scope of window.
+				};
+				myFun();
+				
+				alert("value of x "+x); // this won't be printed as its undefined,
+				alert("value of y "+y);	 // y is valid here as its in window scope.
+			}
+		</script>
+	</head>
+	<body>
+		
+	</body>
+</html>
