@@ -1,0 +1,37 @@
+Classical inheritance has classes ans interfaces,
+
+its done by following ways
+1>  class extending class,
+2> 	class extending abstract class
+3>  class implementing interface	.
+
+
+
+Prototypical inheritance is founf in Javascript.
+Here in javascript there are no classes, but there are functions
+
+we can create an object as well as we can create an object from constructor function.
+
+like examples
+
+
+
+var parent = new Object();
+
+parent.doIt = function(){
+	alert("this is doit method in object parent");
+}
+
+var student = {
+	myMethod : function(){
+		alert("this is myMethod method in object student");
+	}
+}
+
+student.prototype = parent;
+
+
+now i can do this
+
+student.doIt(); 
+the above line works because doit is present in Parent object, and this object is prototypically chained to student object.
