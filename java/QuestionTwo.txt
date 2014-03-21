@@ -1,0 +1,25 @@
+What are Closures.
+
+
+Closures are anonimous functions in javascript.
+
+It can be explained from below examples,
+
+
+var fn = function(){
+	alert("  Hi There ");
+};
+fn();
+
+
+From the above example be come to know that there is a function 'fn'
+and on the next line i am calling the function 'fn()'
+
+
+But clousure will be as follows
+
+(function(){
+	alert(" Hi There ");
+})();
+
+here i have written the function as well as calling it.
