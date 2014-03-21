@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<script type="text/javaScript">
+			(function(){
+				var Employee = function(name, age, qualification, salary){
+					// the below methos becomes private for the objects of Employee
+					var info = function(){
+						var info = "NAME : "+name
+							+"\n AGE : "+age
+							+"\n QUALIFICATION : "+qualification
+							+"\n SALARY : "+salary;
+						return info;	
+					};
+					// the below method is an public method
+					this.getInfo = function(){
+						alert("THE EMPOLOYEE INFO IS AS FOLLOWS \n\n "+info()); // a call to private method 'info'
+					}
+				};
+				
+				var empObj = new Employee("Tommy Bucks", 34, "Diploma in Computer Science","4000 $");
+				
+				empObj.getInfo();
+			})();			
+		</script>
+	</head>
+	<body>
+		
+	</body>
+</html>
