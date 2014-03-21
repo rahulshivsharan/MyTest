@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<script type="text/javaScript">
+			window.onload = function(){
+				
+				var fn = function(){
+					var innerFn = function(){
+						alert(" this is inner function in parent function 'fn', present in 'fn' scope ");
+					};
+					
+					function outter(){
+						alert(" this function is present in global scope ");
+					};
+					
+					innerFn(); // function is in scope of function 'fn'
+					outter(); // function is in global scope 
+				};
+					fn();					
+					
+			}
+		</script>
+	</head>
+	<body>
+		
+	</body>
+</html>
