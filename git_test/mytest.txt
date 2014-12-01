@@ -17,12 +17,12 @@ My Test File for Uploading..
 My Test File for Uploading..
 Smiell sds adada a
 My Test File for Uploading..
-My Test File for Uploading..
-My Test File for Uploading..
-My Test File for Uploading..
-My Test File for Uploading..
-My Test File for Uploading..
-My Test File for Uploading..
+$.each($scope.fetchedSecurityGroups,function(index,sg){
+		if(sg.name == "default"){
+			$scope.select_SG_Obj[sg.id] = true;
+			return false;
+		}	
+});
 My Test File for Uploading..
 My Test File for Uploading..
 My Test File for Uploading..
