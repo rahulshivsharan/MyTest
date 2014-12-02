@@ -9,6 +9,17 @@
 9>	}
 10>}
 My Test File for Uploading..
+                <div    class="drop-box"
+                        ng-file-drop="onFileSelect($files)"
+                        ng-file-drop-available="dropSupported=true"
+                        ng-file-drag-over-class="dragOverClass($event)"
+                        ng-show="dropSupported">drop files here
+                </div>
+
+                <div    ng-file-drop-available="dropSupported=true"
+                        ng-show="!dropSupported">
+                                HTML5 Drop File is not supported!
+                </div>
 My Test File for Uploading..
 My Test File for Uploading..
 My Test File for Uploading..
