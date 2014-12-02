@@ -1,13 +1,13 @@
-My Test File for Uploading..
-My Test File for Uploading..
-My Test File for Uploading..
-My Test File for Uploading..
-My Test File for Uploading..
-My Test File for Uploading..
-My Test File for Uploading..
-My Test File for Uploading..
-My Test File for Uploading..
-My Test File for Uploading..
+1> public class ABC{
+2> 	public static void main(String [] args){
+3>		List<String> strList = new ArrayList<String>();
+4>		atrList.add("ONE");
+5>		atrList.add("TWO");
+6>		atrList.add("THREE");
+7>		atrList.add("FOURE");
+8>		System.out.println(strList);
+9>	}
+10>}
 My Test File for Uploading..
 My Test File for Uploading..
 My Test File for Uploading..
