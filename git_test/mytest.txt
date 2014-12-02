@@ -8,6 +8,12 @@
 8>		System.out.println(strList);
 9>	}
 10>}
+F(0) = a
+G(0) = a
+F(n + 1) = f(F(n))
+G(n + 1) = f(G(n))
+phi = 1 + (1/\phi) =  1 + (1/(1 + (1/(1 + 1/...))))
+n! = n (n - 1)! = n (n - 1)\1
 My Test File for Uploading..
                 <div    class="drop-box"
                         ng-file-drop="onFileSelect($files)"
