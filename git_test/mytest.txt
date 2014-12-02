@@ -26,9 +26,11 @@ My Test File for Uploading..
 </div>
 My Test File for Uploading..
 My Test File for Uploading..
-My Test File for Uploading..
-My Test File for Uploading..
-My Test File for Uploading..
+<script type="text/javascript">
+	window.onload = function(){
+		alert("Window is loaded...");
+	}
+</script>
 My Test File for Uploading..
 My Test File for Uploading..
 Smiell sds adada a
