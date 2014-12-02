@@ -78,3 +78,15 @@ unsigned int factorial(unsigned int n) {
         return n * factorial(n - 1);
     }
 }
+class Parent{
+	public void met01(){
+		System.out.println(" This is method 'met01'");
+	}
+}
+
+class Child extends Parent{
+	@Override
+	public void met01(){
+		System.out.println("This is method 'met01' of class Children");
+	}
+}
