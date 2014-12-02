@@ -2,12 +2,18 @@ My Test File for Uploading..
 My Test File for Uploading..
 My Test File for Uploading..
 My Test File for Uploading..
-My Test File for Uploading..
-My Test File for Uploading..
-My Test File for Uploading..
-My Test File for Uploading..
-My Test File for Uploading..
-My Test File for Uploading..
+<div id="collapseThree" class="panel-collapse collapse">
+	<div class="panel-body">
+		Knockout is a standalone JavaScript implementation of the Model-View-ViewModel pattern with templates. The underlying principles are therefore:
+		<ul>
+			<li>a clear separation between domain data, view components and data to be displayed</li>
+			<li>the presence of a clearly defined layer of specialized code to manage the relationships between the view components</li>
+		</ul>
+		The latter leverages the native event management features of the JavaScript language.
+		These features streamline and simplify the specification of complex relationships between view components, which in turn make the display more responsive and the user experience richer.
+		Knockout was developed and is maintained as an open source project by Steve Sanderson, a Microsoft employee. As the author said, "it continues exactly as-is, and will evolve in whatever direction I and its user community wishes to take it", and stressed, <strong>"this isn’t a Microsoft product".</strong>
+	</div>
+</div>
 My Test File for Uploading..
 My Test File for Uploading..
 My Test File for Uploading..
