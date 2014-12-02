@@ -71,6 +71,15 @@ My Test File for Uploading..
 <script type="text/javascript" src="D:\Rahul Shivsharan\JavaScript-Framework\jQuery\jquery-1.11.1.js"></script>
 <script type="text/javascript" src="D:\Rahul Shivsharan\JavaScript-Framework\BootstrapCSS\bootstrap-3.2.0-dist\js\bootstrap.js"></script>
 My Test File for Uploading..
-My Test File for Uploading..
-My Test File for Uploading..
-My Test File for Uploading..
+class Parent{
+	public void met01(){
+		System.out.println(" This is method 'met01'");
+	}
+}
+
+class Child extends Parent{
+	@Override
+	public void met01(){
+		System.out.println("This is method 'met01' of class Children");
+	}
+}
