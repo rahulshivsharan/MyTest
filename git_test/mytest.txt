@@ -8,6 +8,12 @@
 8>		System.out.println(strList);
 9>	}
 10>}
+
+class Department{
+	public void addDept(Department dept){
+		this.dept = dept;
+	}
+}
 F(0) = a
 G(0) = a
 F(n + 1) = f(F(n))
