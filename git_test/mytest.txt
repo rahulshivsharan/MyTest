@@ -14,6 +14,12 @@ F(n + 1) = f(F(n))
 G(n + 1) = f(G(n))
 phi = 1 + (1/\phi) =  1 + (1/(1 + (1/(1 + 1/...))))
 n! = n (n - 1)! = n (n - 1)\1
+
+class Address{
+	public void addStudent(Student student){
+		this.student = student;
+	}	
+}
 My Test File for Uploading..
                 <div    class="drop-box"
                         ng-file-drop="onFileSelect($files)"
