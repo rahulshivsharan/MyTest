@@ -44,6 +44,11 @@ public static void main(String [] args){
 		Knockout was developed and is maintained as an open source project by Steve Sanderson, a Microsoft employee. As the author said, "it continues exactly as-is, and will evolve in whatever direction I and its user community wishes to take it", and stressed, <strong>"this isn’t a Microsoft product".</strong>
 	</div>
 </div>
+
+jQuery(document).ready(function(){
+	alert("Hi !!!!");	
+});
+
 My Test File for Uploading..
 My Test File for Uploading..
 <script type="text/javascript">
