@@ -100,7 +100,13 @@ class Parent{
 		System.out.println(" This is method 'met01'");
 	}
 }
-
+var fn = function(){
+	alert("This is the new development !!!!");
+	
+	for(var i=0;i< 23; i++){
+		alert(i);
+	}
+}
 class Child extends Parent{
 	@Override
 	public void met01(){
