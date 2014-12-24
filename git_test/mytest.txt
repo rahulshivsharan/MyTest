@@ -29,6 +29,9 @@ My Test File for Uploading..
 My Test File for Uploading..
 My Test File for Uploading..
 My Test File for Uploading..
+public static void main(String [] args){
+	System.out.println("This is Java Code");
+}
 <div id="collapseThree" class="panel-collapse collapse">
 	<div class="panel-body">
 		Knockout is a standalone JavaScript implementation of the Model-View-ViewModel pattern with templates. The underlying principles are therefore:
