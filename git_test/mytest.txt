@@ -85,6 +85,12 @@ var fn = function(){
 		console.log("Value[x] : "+x);
 	}
 }
+
+public class Student{
+	pulic void addStudent(Student student){
+		this.student = student;
+	}	
+}
 <div>
 	<table>
 		<tr></tr>
