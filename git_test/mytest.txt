@@ -171,3 +171,7 @@ var hello-Five = function(){
 	console.log("Greeting Hello 5");
 }
 
+var hello-Six = function(){
+	console.log("Greeting Hello 6");
+}
+
