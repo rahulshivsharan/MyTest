@@ -171,3 +171,10 @@ var hello-Five = function(){
 	console.log("Greeting Hello 5");
 }
 
+angular.module("MyApp-3",["ngResource"]);
+angular.module("MyApp-3").controller("myCtrlTHree",function($log){
+	$log.log("Hi this is an example. 3");
+});
+
+
+
