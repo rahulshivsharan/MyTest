@@ -163,5 +163,7 @@ angular.module("MyApp").controller("myCtrl",function($log){
 	$log.log("Hi this is an example.");
 });
 
-
+var hello-Four = function(){
+	console.log("Greeting Hello 4");
+}
 
