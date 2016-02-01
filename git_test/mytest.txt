@@ -145,3 +145,7 @@ var hello = function(){
 var hello-Two = function(){
 	console.log("Greeting Hello 2");
 }
+
+var hello-Three = function(){
+	console.log("Greeting Hello 3");
+}
