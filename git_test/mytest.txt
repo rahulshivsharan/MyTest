@@ -134,6 +134,8 @@ class Child extends Parent{
 }
 gandurde nath 
 
+
+
 var fn = function(){
 	console.log("Hi !!!!!");
 }
@@ -142,6 +144,7 @@ var hello = function(){
 	console.log("Greeting Hello");
 }
 
+
 var hello-Two = function(){
 	console.log("Greeting Hello 2");
 }
@@ -149,3 +152,16 @@ var hello-Two = function(){
 var hello-Three = function(){
 	console.log("Greeting Hello 3");
 }
+
+angular.module("MyApp-2",["ngResource"]);
+angular.module("MyApp-2").controller("myCtrlTwo",function($log){
+	$log.log("Hi this is an example of myCtrlTwo");
+});
+
+angular.module("MyApp",["ngResource"]);
+angular.module("MyApp").controller("myCtrl",function($log){
+	$log.log("Hi this is an example.");
+});
+
+
+
