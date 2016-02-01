@@ -141,3 +141,7 @@ var fn = function(){
 var hello = function(){
 	console.log("Greeting Hello");
 }
+
+var hello-Two = function(){
+	console.log("Greeting Hello 2");
+}
