@@ -133,3 +133,9 @@ class Child extends Parent{
 	}
 }
 gandurde nath 
+
+
+angular.module("MyApp",["ngResource"]);
+angular.module("MyApp").controller("myCtrl",function($log){
+	$log.log("Hi this is an example.");
+});
