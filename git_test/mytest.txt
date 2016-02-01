@@ -144,6 +144,10 @@ var hello = function(){
 	console.log("Greeting Hello");
 }
 
+angular.module("MyApp-2",["ngResource"]);
+angular.module("MyApp-2").controller("myCtrlTwo",function($log){
+	$log.log("Hi this is an example of myCtrlTwo");
+});
 
 angular.module("MyApp",["ngResource"]);
 angular.module("MyApp").controller("myCtrl",function($log){
