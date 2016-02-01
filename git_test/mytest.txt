@@ -137,3 +137,7 @@ gandurde nath
 var fn = function(){
 	console.log("Hi !!!!!");
 }
+
+var hello = function(){
+	console.log("Greeting Hello");
+}
